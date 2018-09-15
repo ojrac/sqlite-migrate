@@ -9,7 +9,7 @@ import (
 
 	_ "github.com/mattn/go-sqlite3"
 
-	"libmigrate"
+	"github.com/ojrac/libmigrate"
 )
 
 var usage string = `Sqlite-migrate is a tool for managing a sqlite3 database's schema.
